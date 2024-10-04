@@ -3,10 +3,10 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class FirstPersonController : MonoBehaviour
 {
-    public float moveSpeed = 5.0f;  // 玩家移动速度
+    public float moveSpeed = 10.0f;  // 玩家移动速度
     public float lookSpeed = 2.0f;  // 鼠标视角旋转灵敏度
     public float jumpSpeed = 5.0f;  // 跳跃速度
-    public float gravity = 9.8f;    // 重力
+    public float gravity = 15f;    // 重力
 
     private CharacterController controller;
     private Vector3 moveDirection = Vector3.zero;
