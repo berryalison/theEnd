@@ -15,15 +15,15 @@ D:/Taptap2024/theEnd
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52383
+52907
 Successfully changed project path to: D:/Taptap2024/theEnd
 D:/Taptap2024/theEnd
 Using Asset Import Pipeline V2.
-Player connection [3316] Host "[IP] 10.56.226.24 [Port] 2953006176 [Flags] 2 [Guid] 2837505873 [EditorId] 2837505873 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-IJTUF6HB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8076] Host "[IP] 10.56.226.24 [Port] 805522464 [Flags] 2 [Guid] 146970325 [EditorId] 146970325 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-IJTUF6HB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3316] Host "[IP] 10.56.226.24 [Port] 2953006176 [Flags] 2 [Guid] 2837505873 [EditorId] 2837505873 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-IJTUF6HB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8076] Host "[IP] 10.56.226.24 [Port] 805522464 [Flags] 2 [Guid] 146970325 [EditorId] 146970325 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-IJTUF6HB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 148.91 ms, found 3 plugins.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 217.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.48f1c1 (06fbdfbf16e3)
 [Subsystems] Discovering subsystems at path D:/u3d/2020.3.48f1c1/Editor/Data/Resources/UnitySubsystems
@@ -41,94 +41,94 @@ Initialize mono
 Mono path[0] = 'D:/u3d/2020.3.48f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/u3d/2020.3.48f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/u3d/2020.3.48f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/u3d/2020.3.48f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/u3d/2020.3.48f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002227 seconds.
+Registered in 0.002025 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 189.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 186.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.140 seconds
+- Completed reload, in  1.241 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1140ms)
-		BeginReloadAssembly (94ms)
+	ReloadAssembly (1241ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (899ms)
-			LoadAssemblies (94ms)
+		EndReloadAssembly (1029ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
+			SetupTypeCache (316ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (418ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (452ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (190ms)
-				BeforeProcessingInitializeOnLoad (25ms)
-				ProcessInitializeOnLoadAttributes (151ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				RefreshPlugins (187ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005422 seconds.
+Registered in 0.003823 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.574 seconds
+- Completed reload, in  3.006 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2575ms)
-		BeginReloadAssembly (251ms)
+	ReloadAssembly (3008ms)
+		BeginReloadAssembly (220ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (2193ms)
-			LoadAssemblies (205ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (2674ms)
+			LoadAssemblies (161ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (575ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (1229ms)
+			SetupTypeCache (504ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (1661ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (175ms)
-				ProcessInitializeOnLoadAttributes (1025ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (220ms)
+				ProcessInitializeOnLoadAttributes (1382ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
 Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2787 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.2 MB.
-System memory in use after: 135.4 MB.
+System memory in use before: 135.4 MB.
+System memory in use after: 135.6 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3247.
-Total: 5.775500 ms (FindLiveObjects: 0.234900 ms CreateObjectMapping: 0.116200 ms MarkObjects: 5.282600 ms  DeleteObjects: 0.140200 ms)
+Total: 8.329100 ms (FindLiveObjects: 0.355100 ms CreateObjectMapping: 0.177400 ms MarkObjects: 7.550800 ms  DeleteObjects: 0.243100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -142,1141 +142,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Assets/Models/roket2.fbx
-  artifactKey: Guid(dd2a651448f64864ba61f444cda3f887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/roket2.fbx using Guid(dd2a651448f64864ba61f444cda3f887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4ec2a8ef876ea9203cab09eb29d0de') in 0.581629 seconds 
+  path: Assets/_MK/MKToon/Examples/Icons/FlyingIslesExampleIcon.png
+  artifactKey: Guid(e3c4b1c4881f7e847b5dea8b0e62807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Icons/FlyingIslesExampleIcon.png using Guid(e3c4b1c4881f7e847b5dea8b0e62807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0986093176bca5913e7d6b687a37d8f5') in 0.206780 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000478 seconds.
-  path: Assets/Assets/Models/roket.fbx
-  artifactKey: Guid(a5bff0e71ef32d347995176b96424592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/roket.fbx using Guid(a5bff0e71ef32d347995176b96424592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ae0db26873390a7b5d4bb272dd3524') in 0.069048 seconds 
+  Time since last request: 0.000885 seconds.
+  path: Assets/_MK/MKToon/Examples/Icons/ArtisticExampleIcon.png
+  artifactKey: Guid(6dc4cae7b0dbd404899c80e4105343ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Icons/ArtisticExampleIcon.png using Guid(6dc4cae7b0dbd404899c80e4105343ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9064018bd2fbb861cea7b1b2021d11') in 0.030501 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000741 seconds.
-  path: Assets/_MK/MKToon/Examples/Prefabs/Sheep/Water.prefab
-  artifactKey: Guid(fcfcf02127351d448a310977dee261dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Prefabs/Sheep/Water.prefab using Guid(fcfcf02127351d448a310977dee261dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990ff76bce435765988b9712bbbccc49') in 0.446867 seconds 
+  Time since last request: 0.000873 seconds.
+  path: Assets/_MK/MKToon/Examples/Icons/WitchLabExampleIcon.png
+  artifactKey: Guid(829ba09e0fb978741ab9ad0f0d213b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Icons/WitchLabExampleIcon.png using Guid(829ba09e0fb978741ab9ad0f0d213b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb812f89467ec8c96d81239983c931f') in 0.034779 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000596 seconds.
-  path: Assets/Assets/Models/roketFinal.fbx
-  artifactKey: Guid(2a58fab9a3ffe3e4c989247b3c541c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/roketFinal.fbx using Guid(2a58fab9a3ffe3e4c989247b3c541c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ef8784c65872fc2c3aa24350b62978') in 0.116948 seconds 
+  Time since last request: 0.000669 seconds.
+  path: Assets/_MK/MKToon/Examples/Icons/SFXExampleIcon.png
+  artifactKey: Guid(7e46251226bc19e46989b46f85fff668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Icons/SFXExampleIcon.png using Guid(7e46251226bc19e46989b46f85fff668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffe536e4206ffa319ca3660307b609c') in 0.040039 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000475 seconds.
-  path: Assets/_MK/MKToon/Examples/Prefabs/Sheep/Sheep_2.prefab
-  artifactKey: Guid(87d424103e455a54d9856cd9113de4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Prefabs/Sheep/Sheep_2.prefab using Guid(87d424103e455a54d9856cd9113de4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf43265e7b4b97ff15f14332d8eac8c') in 1.391802 seconds 
+  Time since last request: 0.000748 seconds.
+  path: Assets/_MK/MKToon/Examples/Icons/SheepExampleIcon.png
+  artifactKey: Guid(88915596caf2444409924bd6003107b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Icons/SheepExampleIcon.png using Guid(88915596caf2444409924bd6003107b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63ebf921f5a69e8bdf303c1db75872e') in 0.038510 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000700 seconds.
-  path: Assets/Assets/Models/SignalFinal.fbx
-  artifactKey: Guid(561a96d902a97be47adb8192779e0ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/SignalFinal.fbx using Guid(561a96d902a97be47adb8192779e0ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7406e9bbc8f5dd26979fb93366beaab') in 0.105291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000776 seconds.
-  path: Assets/_MK/MKToon/Examples/Prefabs/Sheep/RockP1.prefab
-  artifactKey: Guid(cf199d6af16cf0147b84dc34d18e07fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Prefabs/Sheep/RockP1.prefab using Guid(cf199d6af16cf0147b84dc34d18e07fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c5194a5bd1088fdbf4ea4746cd68bb') in 0.189963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000803 seconds.
-  path: Assets/Assets/Models/gost.fbx
-  artifactKey: Guid(eb3cf9f7c6fee424fac7643d6a0f7450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/gost.fbx using Guid(eb3cf9f7c6fee424fac7643d6a0f7450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb146099f1fa04bd43e1cf97e912a9d') in 0.084174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000759 seconds.
-  path: Assets/_MK/MKToon/Examples/Prefabs/Sheep/Soil.prefab
-  artifactKey: Guid(142abe1511e834d419dcf478ea6ee756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Prefabs/Sheep/Soil.prefab using Guid(142abe1511e834d419dcf478ea6ee756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da21b90d56b7b4082872520b7000b656') in 0.188645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.075334 seconds.
-  path: Assets/Assets/Models/BridgeFinal.fbx
-  artifactKey: Guid(e8263c8d934e7a644ad4256faf16c95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/BridgeFinal.fbx using Guid(e8263c8d934e7a644ad4256faf16c95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abae2d6fd4c3fee2d44dea2b9d001f27') in 0.087893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000556 seconds.
-  path: Assets/Assets/Models/roketFinal1.fbx
-  artifactKey: Guid(f9e3751565a9e1f4ca1615e174416db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/roketFinal1.fbx using Guid(f9e3751565a9e1f4ca1615e174416db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bc186479c839567ac0c9cc2b06a874') in 0.200315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000523 seconds.
-  path: Assets/Assets/Models/QiaoQiaoBanFinal1.fbx
-  artifactKey: Guid(275a1413eb00772408ae8e1bb84fbddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/QiaoQiaoBanFinal1.fbx using Guid(275a1413eb00772408ae8e1bb84fbddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47202739ac60f199e9a58f5894dab56') in 0.090073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000641 seconds.
-  path: Assets/Assets/Models/Tree2.fbx
-  artifactKey: Guid(f16e607eaf7989d4ab7f2715bfd3478a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Tree2.fbx using Guid(f16e607eaf7989d4ab7f2715bfd3478a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a20222ceebe35e2dbd1a6b26e67c4d') in 0.082876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000489 seconds.
-  path: Assets/Assets/Models/Toy2.fbx
-  artifactKey: Guid(a550e75cdfdb7dd4d9e91fe5a002ebd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Toy2.fbx using Guid(a550e75cdfdb7dd4d9e91fe5a002ebd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637250c957b457eaf50fb2bc081ac5f1') in 0.063881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000782 seconds.
-  path: Assets/Assets/Models/Tree1.fbx
-  artifactKey: Guid(07743326b5de3c3408022f0970df0577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Tree1.fbx using Guid(07743326b5de3c3408022f0970df0577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4d4f9ed7a8fc451518a9923c7236bc') in 0.067457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000561 seconds.
-  path: Assets/Assets/Models/Toy1.fbx
-  artifactKey: Guid(dd535fc2876bb2241b7daa83e3244c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Models/Toy1.fbx using Guid(dd535fc2876bb2241b7daa83e3244c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd17993dd859c5461dd966bf0b28f57') in 0.069910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 65.372959 seconds.
-  path: Assets/Assets/Materials/FrostedGlassMaterial.mat
-  artifactKey: Guid(9187271ca78929041b90578d372b5089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/FrostedGlassMaterial.mat using Guid(9187271ca78929041b90578d372b5089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2384b5c6744d8b61a3cb489701ae70bb') in 0.106878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000569 seconds.
-  path: Assets/Assets/Materials/New Render Texture.renderTexture
-  artifactKey: Guid(49511ac6d6537ae47a719e738f703bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/New Render Texture.renderTexture using Guid(49511ac6d6537ae47a719e738f703bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caaaa90684cc81ae9b37b67cf846e45f') in 0.068852 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000737 seconds.
-  path: Assets/Assets/Materials/Image.prefab
-  artifactKey: Guid(a92ae5d85f9cf9a4c8044dc8654cc581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/Image.prefab using Guid(a92ae5d85f9cf9a4c8044dc8654cc581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9863a2c9c535128495536f8f1c642e44') in 0.031310 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000478 seconds.
-  path: Assets/Assets/Materials/red.mat
-  artifactKey: Guid(f55f917c78130d841b6869608e384af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/red.mat using Guid(f55f917c78130d841b6869608e384af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be8c995d1f60b4278b3e9124784fd9a') in 0.057971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Assets/Materials/test_blue.mat
-  artifactKey: Guid(0a266448b691a9845ac4b46d78e242aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/test_blue.mat using Guid(0a266448b691a9845ac4b46d78e242aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8b35896a5d2bd3610d2eca2000db37') in 0.043994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000561 seconds.
-  path: Assets/Assets/Materials/test_.mat
-  artifactKey: Guid(830fe3930202dfc44b5213a980d52c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/test_.mat using Guid(830fe3930202dfc44b5213a980d52c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57c72c39d3e1bf892bc7604eb7f5832') in 0.046415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000666 seconds.
-  path: Assets/Assets/Materials/yellow.mat
-  artifactKey: Guid(9f559486e448bf443b463c4aecdb642d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/yellow.mat using Guid(9f559486e448bf443b463c4aecdb642d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943918a29ea3704fbe8004f9374a6f89') in 0.058684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000632 seconds.
-  path: Assets/Assets/Materials/grey 1.mat
-  artifactKey: Guid(f1fb24efd8849a1479db9ac2ab20dc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/grey 1.mat using Guid(f1fb24efd8849a1479db9ac2ab20dc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab78edf010f15ff435eb747bd3ce386') in 0.051987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000590 seconds.
-  path: Assets/Assets/Materials/gui.mat
-  artifactKey: Guid(9533c46be903d8d46ab2924284961f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/gui.mat using Guid(9533c46be903d8d46ab2924284961f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98898488ff9cbd619ed9ade0dbb56a52') in 0.051223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Assets/Materials/grey.mat
-  artifactKey: Guid(06fb9b959a9f3da4babd852c22e2bfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/grey.mat using Guid(06fb9b959a9f3da4babd852c22e2bfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1432d511efe378dde52189eab95df5b9') in 0.048437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000510 seconds.
-  path: Assets/Assets/Materials/test_bg.mat
-  artifactKey: Guid(3938b8154a28d2d49aa597851ba202f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/test_bg.mat using Guid(3938b8154a28d2d49aa597851ba202f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9dbed46cdb5ce9ad7552149a80d4e1e') in 0.039697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.068831 seconds.
-  path: Assets/Assets/Materials/2/0a.mat
-  artifactKey: Guid(0a73f458e2e444b48899737e04baab07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/0a.mat using Guid(0a73f458e2e444b48899737e04baab07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34dec189ac2134f4989842f36a562172') in 0.194215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000614 seconds.
-  path: Assets/Assets/Materials/2/1.mat
-  artifactKey: Guid(60885c0192c53374bad75c248bdfdf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/1.mat using Guid(60885c0192c53374bad75c248bdfdf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ff82bb77dca0d5e568d45310bd6606') in 0.031531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/Assets/Materials/2/3 - 副本.mat
-  artifactKey: Guid(a3d1e555a22f09a40a2d40e07bca4ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/3 - 副本.mat using Guid(a3d1e555a22f09a40a2d40e07bca4ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64e82331f8cd0f37f4fa45e5fd338b1') in 0.028454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.370163 seconds.
-  path: Assets/Assets/Materials/2/3.mat
-  artifactKey: Guid(6d36c6e40261e504997b9660387e0f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/3.mat using Guid(6d36c6e40261e504997b9660387e0f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f9a4e5763a153cd90d903d4693f1c4') in 0.033020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000533 seconds.
-  path: Assets/Assets/Materials/2/4c.mat
-  artifactKey: Guid(310b03dabac24f341823c641e687376a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/4c.mat using Guid(310b03dabac24f341823c641e687376a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a31536c77ad69315f9faf337c86804c') in 0.026285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000690 seconds.
-  path: Assets/Assets/Materials/2/6.mat
-  artifactKey: Guid(a9a74e2af1cdd444a8fc2430ee9219f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/6.mat using Guid(a9a74e2af1cdd444a8fc2430ee9219f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3429e0b86adff326fb6d27e35bc59033') in 0.021889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000514 seconds.
-  path: Assets/Assets/Materials/2/4b.mat
-  artifactKey: Guid(9c0ede01021190142a2833cd06c69479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/4b.mat using Guid(9c0ede01021190142a2833cd06c69479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab8976f3b8da1363a506fed7c033262') in 0.027493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000814 seconds.
-  path: Assets/Assets/Materials/3/WitchLab.mat
-  artifactKey: Guid(b006a7371d7174b4ca578052859d280b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/3/WitchLab.mat using Guid(b006a7371d7174b4ca578052859d280b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd3f6164f76edc38e94b68ddb41d7b6') in 0.169946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000530 seconds.
-  path: Assets/Assets/Materials/2/5a.mat
-  artifactKey: Guid(7b6ba4f2c2f4b284d9368473f4436237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/5a.mat using Guid(7b6ba4f2c2f4b284d9368473f4436237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12efee9e90b534a895e398cde95f733d') in 0.028907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000580 seconds.
-  path: Assets/Assets/Materials/3/WitchLab - 副本.mat
-  artifactKey: Guid(d63cb56172170294687c81f40c941e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/3/WitchLab - 副本.mat using Guid(d63cb56172170294687c81f40c941e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0309e95e5d5a538c65403b8f9f895b90') in 0.026221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000533 seconds.
-  path: Assets/Assets/Materials/2/4d.mat
-  artifactKey: Guid(da28cd94938092a47898052baec9b0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/4d.mat using Guid(da28cd94938092a47898052baec9b0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8777d1e26bdcb4022ce9448db6956912') in 0.030256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000545 seconds.
-  path: Assets/Assets/Materials/3/WitchLab - 副本 (2).mat
-  artifactKey: Guid(19a8e709a1261004c8117cb9269aa474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/3/WitchLab - 副本 (2).mat using Guid(19a8e709a1261004c8117cb9269aa474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e61572317ef8aea0b4fba8f18c3edd') in 0.031826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000661 seconds.
-  path: Assets/Assets/Materials/3/WitchLab - 副本 (3).mat
-  artifactKey: Guid(de660375ba598dd43bdf46c82e25d7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/3/WitchLab - 副本 (3).mat using Guid(de660375ba598dd43bdf46c82e25d7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2efef21ba9ad750173adc564f85ac3db') in 0.031199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000512 seconds.
-  path: Assets/Assets/Materials/2/4e.mat
-  artifactKey: Guid(b5a57a17bab74ee4ab94241c71f449cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/4e.mat using Guid(b5a57a17bab74ee4ab94241c71f449cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7039d9b8d18f8456923acd9ffc9a4711') in 0.030788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000765 seconds.
-  path: Assets/Assets/Materials/2/4f.mat
-  artifactKey: Guid(7ccb79f4d3916ca4483658099c540768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/4f.mat using Guid(7ccb79f4d3916ca4483658099c540768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e9e83af33633e6e7bb2317d3f00968') in 0.030072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000505 seconds.
-  path: Assets/Assets/Materials/2/4a.mat
-  artifactKey: Guid(b31a0c9e0bba71a4e907d264ee9ee901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/4a.mat using Guid(b31a0c9e0bba71a4e907d264ee9ee901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13ff9703816f5342de0fe1734e5d253') in 0.048209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000604 seconds.
-  path: Assets/Assets/Materials/2/5b.mat
-  artifactKey: Guid(767a0e6c5a812ed4ba71fe8a13a3d356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/5b.mat using Guid(767a0e6c5a812ed4ba71fe8a13a3d356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3948724d9ab815d7d7fe672c7ed9a4c5') in 0.031223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000535 seconds.
-  path: Assets/Assets/Materials/3/WitchLab - 副本 (2) - 副本.mat
-  artifactKey: Guid(8f644d4224c9f4049a144c9645b878cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/3/WitchLab - 副本 (2) - 副本.mat using Guid(8f644d4224c9f4049a144c9645b878cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fc7d6c077746c6fd519b1e6693e060') in 0.052213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.657722 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/pine tree small.fbx
-  artifactKey: Guid(0a2ea2cd9c7c7f0489260e3dbfadd15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/pine tree small.fbx using Guid(0a2ea2cd9c7c7f0489260e3dbfadd15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d62b1fe919a42f84590907702a2f1df') in 0.063211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000637 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/plants yellow.fbx
-  artifactKey: Guid(6cb2fb38544ddf042a8cca3d9d942839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/plants yellow.fbx using Guid(6cb2fb38544ddf042a8cca3d9d942839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683857e9e8bda633641b115b4f0dbe6b') in 0.052657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000768 seconds.
-  path: Assets/_MK/MKToon/Examples/Models/FlyingIsle.fbx
-  artifactKey: Guid(83a5180f8ca470d47b65ea655af412c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Models/FlyingIsle.fbx using Guid(83a5180f8ca470d47b65ea655af412c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7ad25fb50ca406bce8220354570841') in 0.714140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/Fences/Processed fences/processed fence left.fbx
-  artifactKey: Guid(904b206692960704b89eb7c089afcb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/Fences/Processed fences/processed fence left.fbx using Guid(904b206692960704b89eb7c089afcb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc442a1b4f66b05cf4c014a16c51801') in 0.074089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000607 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Vehicles/car SUV large yellow.fbx
-  artifactKey: Guid(79ac5e280453fca43a71c1fee1cf772a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Vehicles/car SUV large yellow.fbx using Guid(79ac5e280453fca43a71c1fee1cf772a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2b30f5eb7705ba807d64d5ead166dc') in 0.191792 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000572 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Pumpkins/pumpkin.fbx
-  artifactKey: Guid(a77917335883e024284117069e67f490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Pumpkins/pumpkin.fbx using Guid(a77917335883e024284117069e67f490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7dc443058b5f77fb520d5a6ea5538df') in 0.058756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000471 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/Fences/Processed fences/processed fence left 2.fbx
-  artifactKey: Guid(854444651db409c449221323ab60138a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/Fences/Processed fences/processed fence left 2.fbx using Guid(854444651db409c449221323ab60138a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7331ba1d7e18a6703ebd3d1985430612') in 0.052221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/Environment halloween/pumpkin halloween 2.fbx
-  artifactKey: Guid(5be0c6ab93457d44a92ab6ac7f85ccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/Environment halloween/pumpkin halloween 2.fbx using Guid(5be0c6ab93457d44a92ab6ac7f85ccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d62f18f6b24e1ef326c856d5763b24') in 0.053370 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000936 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/railway.fbx
-  artifactKey: Guid(e315db6e10bcb794b8217d3b6ddc3839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/railway.fbx using Guid(e315db6e10bcb794b8217d3b6ddc3839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31a9f3c7c16e90abc8ab645a3e1eee9') in 0.048325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000834 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Pyramids/pyramid 2.fbx
-  artifactKey: Guid(0cc52b2f7b81d94449c6826e4af86c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Pyramids/pyramid 2.fbx using Guid(0cc52b2f7b81d94449c6826e4af86c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fecd1daff1456c4d6ae5e3f7e42515') in 0.068804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000507 seconds.
-  path: Assets/models/QiaoQiaoBanFinal.fbx
-  artifactKey: Guid(475d3706993cd2b4d898d4afe21c8f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/QiaoQiaoBanFinal.fbx using Guid(475d3706993cd2b4d898d4afe21c8f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a25be9b2e683ddaa6e601f97d05f87a') in 0.072683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000482 seconds.
-  path: Assets/_MK/MKToon/Examples/Models/Playroom/Playing_Block_01.fbx
-  artifactKey: Guid(98e66b0dd1e674c4eae0ada48551fee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Models/Playroom/Playing_Block_01.fbx using Guid(98e66b0dd1e674c4eae0ada48551fee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172a7eba9f4e2b14674fb75c9192ae91') in 0.050337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Pumpkins/pumpkin 2.fbx
-  artifactKey: Guid(7db50daa06c071b45b987b7c780c1343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Pumpkins/pumpkin 2.fbx using Guid(7db50daa06c071b45b987b7c780c1343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56059b98ced6300c393dd32b542160c4') in 0.053076 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000556 seconds.
-  path: Assets/models/QiuQian.fbx
-  artifactKey: Guid(f120b902eb4fa4e43a8b4cc7413f9c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/QiuQian.fbx using Guid(f120b902eb4fa4e43a8b4cc7413f9c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce84899f924f149442ef9038ccc00bd') in 0.088456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000628 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/plants green 2.fbx
-  artifactKey: Guid(e5133d39f4f74904ab1d32ddaef4b5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/plants green 2.fbx using Guid(e5133d39f4f74904ab1d32ddaef4b5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab9faf99fd4cac7091d5a750df39b46') in 0.058401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000478 seconds.
-  path: Assets/models/gost.fbx
-  artifactKey: Guid(4fcb800c267c6de4dbb7b35e2ab406ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/gost.fbx using Guid(4fcb800c267c6de4dbb7b35e2ab406ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ea1c7be42d17d3997eaccbe20261b6') in 0.047540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/plants yellow.fbx
-  artifactKey: Guid(fb588577f5c491f4db406028d2a15660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/plants yellow.fbx using Guid(fb588577f5c491f4db406028d2a15660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0dee6b5bcac3995713152d6f8f77a10') in 0.041994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000504 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/plants green.fbx
-  artifactKey: Guid(184ab334fe9fd2c4abc8cfef21143e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/plants green.fbx using Guid(184ab334fe9fd2c4abc8cfef21143e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a06fc5fd3476b5de978788bf2a12f0b') in 0.046279 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000559 seconds.
-  path: Assets/models/prefab/gost 1.fbx
-  artifactKey: Guid(ef44c9a6f5d71ad48abbd95033fcbc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/prefab/gost 1.fbx using Guid(ef44c9a6f5d71ad48abbd95033fcbc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272e2c7294fe0a1d949f7ed9955d94fa') in 0.044953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000533 seconds.
-  path: Assets/_MK/MKToon/Examples/Models/Playroom/Playing_Block_02.fbx
-  artifactKey: Guid(6deb5cc525b6d5549aaccf5baa2cd541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Models/Playroom/Playing_Block_02.fbx using Guid(6deb5cc525b6d5549aaccf5baa2cd541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb82d7c8b6b61f0a03d5a7aa9017ec3d') in 0.049831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000712 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/plants brown 2.fbx
-  artifactKey: Guid(11653b7d29b711d4d9009e8aab77efc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/plants brown 2.fbx using Guid(11653b7d29b711d4d9009e8aab77efc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7610864a63ba7e97da2a9bf1a33a0394') in 0.044323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000434 seconds.
-  path: Assets/models/DiaoHuanFinal.fbx
-  artifactKey: Guid(3c80b57cb4c61ad4ab812170c0cdb298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/DiaoHuanFinal.fbx using Guid(3c80b57cb4c61ad4ab812170c0cdb298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0067e7f391bff53be320b7839c3344ae') in 0.064229 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/Fences/Processed fences/processed fence.fbx
-  artifactKey: Guid(e95000cd8f8d9ba4c94d682826f8563f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/Fences/Processed fences/processed fence.fbx using Guid(e95000cd8f8d9ba4c94d682826f8563f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75067289646a5a4cab386efb92526a08') in 0.050449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/Environment halloween/pumpkin halloween.fbx
-  artifactKey: Guid(05dbcf4c620a99140a222e16b46471f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/Environment halloween/pumpkin halloween.fbx using Guid(05dbcf4c620a99140a222e16b46471f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca485e50f43d1d0693f8697e2574ffbc') in 0.044503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000522 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/cart.fbx
-  artifactKey: Guid(8af81a8960af7434c91f9d3d90e92eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/cart.fbx using Guid(8af81a8960af7434c91f9d3d90e92eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e915089f99f0a8a776123e471ea4e45') in 0.096265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000502 seconds.
-  path: Assets/models/SignalFinal.fbx
-  artifactKey: Guid(7ff019c35f38e314e86cdd66cee7edd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/SignalFinal.fbx using Guid(7ff019c35f38e314e86cdd66cee7edd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce8a96216a5c16dad59d29c089e8342') in 0.043111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000495 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Pumpkins/pumpkin 3.fbx
-  artifactKey: Guid(18723c73b2c570546b59c6532d099a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Pumpkins/pumpkin 3.fbx using Guid(18723c73b2c570546b59c6532d099a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f735787beebc00b8642bbbfefea697') in 0.053921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000808 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/plants brown.fbx
-  artifactKey: Guid(5607be319906e2442863fc4ca4de0c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/plants brown.fbx using Guid(5607be319906e2442863fc4ca4de0c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8d19cc3aa1fe17e8a273281566f3de') in 0.050918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000490 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/Environment halloween/pumpkin halloween 3.fbx
-  artifactKey: Guid(a6309e503eeb1ee44933e0a4d7e15d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/Environment halloween/pumpkin halloween 3.fbx using Guid(a6309e503eeb1ee44933e0a4d7e15d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b413b2b2848c4e6b8017273c8defaf9d') in 0.056326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000525 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Pyramids/pyramid.fbx
-  artifactKey: Guid(deba2f9c1ba4c9841aa4fbba075244cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Pyramids/pyramid.fbx using Guid(deba2f9c1ba4c9841aa4fbba075244cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcc721a88af63a9cd6f0e467573176f') in 0.055444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000567 seconds.
-  path: Assets/models/roketFinal.fbx
-  artifactKey: Guid(c376175e9f2a8d44a82d904ef5725799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/roketFinal.fbx using Guid(c376175e9f2a8d44a82d904ef5725799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65effc225e8590381d196e217add9834') in 0.103346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000640 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Houses/railway station.fbx
-  artifactKey: Guid(e18373eca5d5eab49b84a88184873696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Houses/railway station.fbx using Guid(e18373eca5d5eab49b84a88184873696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1744c5e6843dbbfefb5c5f1e6b9971db') in 0.063317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000678 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/plants yellow 2.fbx
-  artifactKey: Guid(4d14d89d2a3b9984cb077904da73c82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/plants yellow 2.fbx using Guid(4d14d89d2a3b9984cb077904da73c82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9646d0be704ee0c6d0bfeac6b01129') in 0.049871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000825 seconds.
-  path: Assets/_MK/MKToon/Examples/Models/WitchLab.FBX
-  artifactKey: Guid(4eca35cbb672f5e4f99fd27f6089bdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Models/WitchLab.FBX using Guid(4eca35cbb672f5e4f99fd27f6089bdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e8f1d9f0c77c902e164ca6d42b1f20') in 2.622528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000500 seconds.
-  path: Assets/_MK/MKToon/Examples/Models/WitchLab.FBX
-  artifactKey: Guid(4eca35cbb672f5e4f99fd27f6089bdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Models/WitchLab.FBX using Guid(4eca35cbb672f5e4f99fd27f6089bdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e8f1d9f0c77c902e164ca6d42b1f20') in 2.616576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000730 seconds.
-  path: Assets/_MK/MKToon/Examples/Models/Playroom/Playing_Table_01.fbx
-  artifactKey: Guid(5400c03d61cf0064c9ba160c35e1cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Models/Playroom/Playing_Table_01.fbx using Guid(5400c03d61cf0064c9ba160c35e1cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a8fe875e4ff76338d9310dc334055f') in 0.054118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 281.048784 seconds.
-  path: Assets/models/ClimbFinal.fbx
-  artifactKey: Guid(468f2e2365c290247accfddfb6779af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/ClimbFinal.fbx using Guid(468f2e2365c290247accfddfb6779af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea25f789f8d5ef21a071f61a9fb032a') in 0.067647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000507 seconds.
-  path: Assets/models/WeChat Image_20241001161433.jpg
-  artifactKey: Guid(9eb2c798084955d42b99178e891ef3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/WeChat Image_20241001161433.jpg using Guid(9eb2c798084955d42b99178e891ef3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cf04b9d6bba5942a308a8aef312a33') in 0.063529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.423962 seconds.
-  path: Assets/models/prefab/Climb.prefab
-  artifactKey: Guid(a97354f71665d79419eaacd60492282e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/prefab/Climb.prefab using Guid(a97354f71665d79419eaacd60492282e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36b1128dc01386c6362c6cb86424e15') in 0.038179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000604 seconds.
-  path: Assets/models/prefab/Qiaoqiaoban.prefab
-  artifactKey: Guid(14b713a9aec84b343a7612373a12e2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/prefab/Qiaoqiaoban.prefab using Guid(14b713a9aec84b343a7612373a12e2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f13326588abca0a3bdd1caff5f58d5') in 0.034069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000704 seconds.
-  path: Assets/models/prefab/gost.prefab
-  artifactKey: Guid(8df17b889c2a82c449765b301f75939f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/prefab/gost.prefab using Guid(8df17b889c2a82c449765b301f75939f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4165f1a14141d3160da16bcf29fbee') in 0.068278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000881 seconds.
-  path: Assets/models/prefab/Diaomaterial.mat
-  artifactKey: Guid(e9d6600d0bfee7c4dbcfe692a12ecb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/prefab/Diaomaterial.mat using Guid(e9d6600d0bfee7c4dbcfe692a12ecb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85045555ffd0903b29dc3b0c6ed9bafa') in 0.037800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000761 seconds.
-  path: Assets/models/prefab/Qiaomaterial 2.mat
-  artifactKey: Guid(4805cf7674bef5b4a94e51759baf070d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/prefab/Qiaomaterial 2.mat using Guid(4805cf7674bef5b4a94e51759baf070d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7d5bb92aff806c285751c28fc2d3a2') in 0.052337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000706 seconds.
-  path: Assets/models/prefab/Rocket.prefab
-  artifactKey: Guid(a1c90fcdd51143443ac9fabfbb584f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/prefab/Rocket.prefab using Guid(a1c90fcdd51143443ac9fabfbb584f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb9f055599c775a708f8d595df277d5') in 0.035636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000621 seconds.
-  path: Assets/models/prefab/Rocketmaterial.mat
-  artifactKey: Guid(67a34ca48ffd8474a9810c9a71f2ba40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/prefab/Rocketmaterial.mat using Guid(67a34ca48ffd8474a9810c9a71f2ba40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd4b8bc05ee2dfa6917a4d57a2313db') in 0.050477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000530 seconds.
-  path: Assets/models/prefab/climbmaterial.mat
-  artifactKey: Guid(292c88d6c50bd474c8853913beb2323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/prefab/climbmaterial.mat using Guid(292c88d6c50bd474c8853913beb2323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c2c539f1b80367754ddecbee8626a4') in 0.027321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000554 seconds.
-  path: Assets/models/prefab/gostm.mat
-  artifactKey: Guid(1f8583c2665de0649a8092fc497d27bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/prefab/gostm.mat using Guid(1f8583c2665de0649a8092fc497d27bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8428315f4b1d36adb24c34ca0b0c15b9') in 0.030615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000641 seconds.
-  path: Assets/models/prefab/Qiaomaterial 3.mat
-  artifactKey: Guid(6b89dfcaaa9beab4e8d8c05c7fcaeae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/prefab/Qiaomaterial 3.mat using Guid(6b89dfcaaa9beab4e8d8c05c7fcaeae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1325d5efe1052170702bbf2ef5f6004e') in 0.030783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/models/prefab/Qiaomaterial.mat
-  artifactKey: Guid(02108828bfa89034b8200884b2a1cd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/prefab/Qiaomaterial.mat using Guid(02108828bfa89034b8200884b2a1cd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8074a312d605055e9518a12f01dbce') in 0.034805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000707 seconds.
-  path: Assets/models/prefab/Singal.prefab
-  artifactKey: Guid(41a98ee9e1101334eac97f93ad26b742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/prefab/Singal.prefab using Guid(41a98ee9e1101334eac97f93ad26b742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8d097a81c275544cd87d193eb8c33a') in 0.029434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/models/prefab/eye.mat
-  artifactKey: Guid(b442fdc253454c14996ff8da0101bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/prefab/eye.mat using Guid(b442fdc253454c14996ff8da0101bf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebccde4a0fd230af3c17ed977b580282') in 0.031545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000640 seconds.
-  path: Assets/models/prefab/Qiuqian.prefab
-  artifactKey: Guid(195e8ba915166204ca01f2aa882b6556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/prefab/Qiuqian.prefab using Guid(195e8ba915166204ca01f2aa882b6556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a682ea597d57580ceacfcf73e60a57cf') in 0.045172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000826 seconds.
-  path: Assets/models/prefab/DiaoHuan.prefab
-  artifactKey: Guid(a9ad127455b96a74fb198afa7c4e779e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/prefab/DiaoHuan.prefab using Guid(a9ad127455b96a74fb198afa7c4e779e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40a208a392d5bb3861ad4fbaa212398') in 0.043377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000817 seconds.
-  path: Assets/models/prefab/Qiaomaterial 1.mat
-  artifactKey: Guid(b9bea69ac8e06b44d9489b3d7fbf6abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/prefab/Qiaomaterial 1.mat using Guid(b9bea69ac8e06b44d9489b3d7fbf6abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bbf2d5ec0991777a9f25b7117ff25e') in 0.034391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.624750 seconds.
-  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Moons.FBX
-  artifactKey: Guid(8983373b2d0ca5445ac4e5a78e63842e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Moons.FBX using Guid(8983373b2d0ca5445ac4e5a78e63842e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9ad992e905c4c9ccdd67d8d001c8f6') in 0.153965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000614 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Palm trees/palm tree tilted.fbx
-  artifactKey: Guid(b05c4ec308abb58498bb588b98007995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Palm trees/palm tree tilted.fbx using Guid(b05c4ec308abb58498bb588b98007995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db50b606da2cb356db6cbd27fd62979c') in 0.056556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000531 seconds.
-  path: Assets/_MK/MKToon/Examples/Models/ShaderBall/Smoothed/Neck_LOD2.asset
-  artifactKey: Guid(fcf77cbee0343b84f94bb5472050a49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Models/ShaderBall/Smoothed/Neck_LOD2.asset using Guid(fcf77cbee0343b84f94bb5472050a49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5b411f0d933f49f1f9eb9ec7d5cb99') in 0.056829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000761 seconds.
-  path: Assets/_MK/MKToon/Examples/Models/Sheep/Sheep_2.fbx
-  artifactKey: Guid(95af5dc3249eb18439f81e68301e7873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Models/Sheep/Sheep_2.fbx using Guid(95af5dc3249eb18439f81e68301e7873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2aef094beaf698adcb93f2288a9f843') in 0.301221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000548 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Palm trees/palm tree bent.fbx
-  artifactKey: Guid(f68dd7b08d6cf934a81c1778bd92f405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Palm trees/palm tree bent.fbx using Guid(f68dd7b08d6cf934a81c1778bd92f405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf9e5af2762e084815249d5d9b9a162') in 0.053004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Palm trees/palm tree large.fbx
-  artifactKey: Guid(cf864717ff120e8409ee77880944b5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Palm trees/palm tree large.fbx using Guid(cf864717ff120e8409ee77880944b5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aef5bc4dbe38e84c12db7d3741ff043') in 0.056032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000518 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Vehicles/passenger wagon.fbx
-  artifactKey: Guid(75be77989de7d0843bc0c1eadca68e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Vehicles/passenger wagon.fbx using Guid(75be77989de7d0843bc0c1eadca68e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c91b10e828651cd479b9db45414c40') in 0.133143 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000504 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Mushrooms brown/mushroom brown.fbx
-  artifactKey: Guid(30876dca5012aab4c89f8295a141f8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Mushrooms brown/mushroom brown.fbx using Guid(30876dca5012aab4c89f8295a141f8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007ea043575f964b8a7ce8248493608b') in 0.051870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000525 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/pine tree large.fbx
-  artifactKey: Guid(88a160529719e334d96b3cb2e1797503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/pine tree large.fbx using Guid(88a160529719e334d96b3cb2e1797503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e0f6b66403bbc12147943e39b87d94') in 0.058385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000568 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Mushrooms brown/mushroom brown 2.fbx
-  artifactKey: Guid(a24500b683c56964eb365dc8f2a3d49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Mushrooms brown/mushroom brown 2.fbx using Guid(a24500b683c56964eb365dc8f2a3d49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6036c1756462eef2b4003a262b33f60d') in 0.057510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000554 seconds.
-  path: Assets/_MK/MKToon/Examples/Models/ShaderBall/Smoothed/Neck_LOD1.asset
-  artifactKey: Guid(aed89b553e5ac5e4d8ac2b0e17795b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Models/ShaderBall/Smoothed/Neck_LOD1.asset using Guid(aed89b553e5ac5e4d8ac2b0e17795b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9836506ce309da9422ee73fbfbc71393') in 0.045342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/_MK/MKToon/Examples/Models/ShaderBall/Smoothed/Neck_LOD0.asset
-  artifactKey: Guid(6366a6441309f0a4fa7f7e40595b86b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Models/ShaderBall/Smoothed/Neck_LOD0.asset using Guid(6366a6441309f0a4fa7f7e40595b86b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0d0639f29b6fd4248bf917519339cb') in 0.043126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000641 seconds.
-  path: Assets/_MK/MKToon/Examples/Models/ShaderBall/MKShaderBall.fbx
-  artifactKey: Guid(b96f62e96a6f5034983084eecceb4eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Models/ShaderBall/MKShaderBall.fbx using Guid(b96f62e96a6f5034983084eecceb4eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf9413aa1bea90d15e55a2dc88fd1a1') in 1.071971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Mushrooms brown/mushroom brown 3.fbx
-  artifactKey: Guid(aee85743891dbdd489bfeff405df92d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Mushrooms brown/mushroom brown 3.fbx using Guid(aee85743891dbdd489bfeff405df92d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1c699cb22c71a2684da10fe3002647') in 0.062542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/pine tree medium.fbx
-  artifactKey: Guid(67b228174f7dfc148857a055286067a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/pine tree medium.fbx using Guid(67b228174f7dfc148857a055286067a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8650fa6bbef050de3de603fe53933a55') in 0.052373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000531 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Roads/pedestrian road.fbx
-  artifactKey: Guid(af4eb2839d243dc4ea32bdb68cae6d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Roads/pedestrian road.fbx using Guid(af4eb2839d243dc4ea32bdb68cae6d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d320d5430b93bcba8eaa3ab10a3c942') in 0.054379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000632 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Palm trees/palm tree small.fbx
-  artifactKey: Guid(194bab44bc004fa4d8556aa83b38cfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Palm trees/palm tree small.fbx using Guid(194bab44bc004fa4d8556aa83b38cfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdb897a0e3e24fcb12436df11596e06') in 0.058363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000641 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Fir trees/pine tree large.fbx
-  artifactKey: Guid(5d8656253bc8193468a822e87c1e6a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Fir trees/pine tree large.fbx using Guid(5d8656253bc8193468a822e87c1e6a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6ff5d7b2071b28a6a105a511d1493e') in 0.063944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000685 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/farm windmill.fbx
-  artifactKey: Guid(e2b0ca6fe7a3d714094a6b3328b3aa79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/farm windmill.fbx using Guid(e2b0ca6fe7a3d714094a6b3328b3aa79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045a6161080a6e57e29fc8832152e701') in 0.081990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.357606 seconds.
-  path: Assets/_MK/MKToon/Examples/Models/1mr_Donut_4.FBX
-  artifactKey: Guid(d0aa89267a042694fa5fdf3002384bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Models/1mr_Donut_4.FBX using Guid(d0aa89267a042694fa5fdf3002384bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0469252d1912d39631cc8e517cd9729b') in 0.081730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000687 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bushy plant right 2.fbx
-  artifactKey: Guid(df971146516032a40add311dcfc2a7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bushy plant right 2.fbx using Guid(df971146516032a40add311dcfc2a7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260960a5529d318d258361ff08db2d1c') in 0.063370 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000671 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Autumn shrubs/autumn shrub.fbx
-  artifactKey: Guid(d76e4980383178b4888fafce9c7e0574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Autumn shrubs/autumn shrub.fbx using Guid(d76e4980383178b4888fafce9c7e0574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53822bc2d4a1f77f57ff7f6e46f62f8') in 0.058883 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000488 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Autumn trees/autumn tree.fbx
-  artifactKey: Guid(6e67e3c4e5697e5498651242079d0f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Autumn trees/autumn tree.fbx using Guid(6e67e3c4e5697e5498651242079d0f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15560e5189642c96f3836a89d2f48cf3') in 0.058343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000486 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bushy plant left 3.fbx
-  artifactKey: Guid(b4d955821ad6a994ba4b9ef66e27909a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bushy plant left 3.fbx using Guid(b4d955821ad6a994ba4b9ef66e27909a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed056f1637a81371aaf213a0f1755fa') in 0.057768 seconds 
+  Time since last request: 0.000750 seconds.
+  path: Assets/_MK/MKToon/Examples/Icons/OutlinesExampleIcon 1.png
+  artifactKey: Guid(e2dfd5cdddd004b4bada90c01c59083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Icons/OutlinesExampleIcon 1.png using Guid(e2dfd5cdddd004b4bada90c01c59083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d93d54ca76199175d83c303a25bb9b3') in 0.037423 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000581 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/Autumn fir trees/autumn fir tree small.fbx
-  artifactKey: Guid(167880c4930eeac408c1509f4338d560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/Autumn fir trees/autumn fir tree small.fbx using Guid(167880c4930eeac408c1509f4338d560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e73ba13fe68c766b562a8e62cf8ac5') in 0.049935 seconds 
+  path: Assets/_MK/MKToon/Examples/Icons/LightingStylesExampleIcon.png
+  artifactKey: Guid(089163c4a43ac6a478c932431e92ac2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Icons/LightingStylesExampleIcon.png using Guid(089163c4a43ac6a478c932431e92ac2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b668ba36a0d1eab32edfa00b5a47680') in 0.031034 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000916 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Autumn trees/autumn tree 2.fbx
-  artifactKey: Guid(466770e8e611e4a42af74d2b37f49d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Autumn trees/autumn tree 2.fbx using Guid(466770e8e611e4a42af74d2b37f49d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a3878cd4c103d9fdbc464c03b2c01e') in 0.048053 seconds 
+  Time since last request: 0.000889 seconds.
+  path: Assets/_MK/MKToon/Examples/Icons/PlayroomExampleIcon.png
+  artifactKey: Guid(cf7bb9e3e61399946aada46ababf1548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Icons/PlayroomExampleIcon.png using Guid(cf7bb9e3e61399946aada46ababf1548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b651fcffe364215625be4ac245761065') in 0.034807 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000518 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Autumn shrubs/autumn shrub 2.fbx
-  artifactKey: Guid(2673139f86bd456448c57e1f129f2ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Autumn shrubs/autumn shrub 2.fbx using Guid(2673139f86bd456448c57e1f129f2ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad749257ec60bafca65ef73ce8e94084') in 0.055781 seconds 
+  Time since last request: 0.000532 seconds.
+  path: Assets/_MK/MKToon/Examples/Icons/SpectateExampleIcon.png
+  artifactKey: Guid(dc4f36fb4c92c3244aecdd4dfe2021ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Icons/SpectateExampleIcon.png using Guid(dc4f36fb4c92c3244aecdd4dfe2021ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b42b49f17064bd474fc9409a8e96d6c') in 0.035931 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000489 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Autumn bush plants/autumn bush plant.fbx
-  artifactKey: Guid(b57cea82e5ac1494bbb61977ae50d151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Autumn bush plants/autumn bush plant.fbx using Guid(b57cea82e5ac1494bbb61977ae50d151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99f2fce8909edb02fde9d002ff96c97') in 0.056205 seconds 
+  Time since last request: 0.000588 seconds.
+  path: Assets/_MK/MKToon/Examples/Icons/OutlinesExampleIcon.png
+  artifactKey: Guid(22476a6325e7ba94ca3914b85b2099f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Icons/OutlinesExampleIcon.png using Guid(22476a6325e7ba94ca3914b85b2099f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23b392bfd06bc1a68a17ae72ea25fa7') in 0.032531 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/Autumn fir trees/autumn fir tree bent.fbx
-  artifactKey: Guid(1ab07868741768c4eba78c83be8e6a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/Autumn fir trees/autumn fir tree bent.fbx using Guid(1ab07868741768c4eba78c83be8e6a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c92bb7e1eff53680f3d3465f14fe8d') in 0.064736 seconds 
+  Time since last request: 200.630343 seconds.
+  path: Assets/Assets/Materials/2/0b.mat
+  artifactKey: Guid(d2552235614cf2e4eb3632f3e448ae38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Materials/2/0b.mat using Guid(d2552235614cf2e4eb3632f3e448ae38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294eb8f7df73e387dd946ed6c8f794b1') in 0.130382 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000636 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bushy plant left 4.fbx
-  artifactKey: Guid(c6e42c61b7e461443a8932c59a1d67eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bushy plant left 4.fbx using Guid(c6e42c61b7e461443a8932c59a1d67eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6379197370dbc5f782898a957d7b1b23') in 0.072366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000828 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Autumn bush plants/autumn bush plant 2.fbx
-  artifactKey: Guid(1ab2e4f6e37e9c04d8f6d2504a60913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Autumn bush plants/autumn bush plant 2.fbx using Guid(1ab2e4f6e37e9c04d8f6d2504a60913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4861c8987ce187af83ac7320498a534') in 0.056114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000666 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/Autumn fir trees/autumn pine tree medium.fbx
-  artifactKey: Guid(a1942cc9620ac0a43a6dbfeeac5fdb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/Autumn fir trees/autumn pine tree medium.fbx using Guid(a1942cc9620ac0a43a6dbfeeac5fdb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1402daa4c8d93f3aa5628e5a8a74112f') in 0.066428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000704 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Water lilies/ater lily leaf.fbx
-  artifactKey: Guid(89c922a40e435714786e8170fc6aa01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Water lilies/ater lily leaf.fbx using Guid(89c922a40e435714786e8170fc6aa01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2d94caa684fcfe06c1a32aa9dac066') in 0.057039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000611 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Agaric mushrooms/agaric mushroom 3.fbx
-  artifactKey: Guid(a96ff3d7c5957274f8b4ae0ac2d3dd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Agaric mushrooms/agaric mushroom 3.fbx using Guid(a96ff3d7c5957274f8b4ae0ac2d3dd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2082157d44049fa4b6dd9066d1f3dcf9') in 0.057015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000672 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bush plant 2.fbx
-  artifactKey: Guid(bbf0b72108bdca24e8ec515dd5e12629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bush plant 2.fbx using Guid(bbf0b72108bdca24e8ec515dd5e12629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ccfac39ca658c0d9873106354d12ed') in 0.046812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000465 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/Autumn fir trees/autumn fir tree tilted.fbx
-  artifactKey: Guid(6d5ce0d4b99c0204ebe594825af036fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/Autumn fir trees/autumn fir tree tilted.fbx using Guid(6d5ce0d4b99c0204ebe594825af036fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f83601b936de7d8b6d68684b45db699') in 0.053589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000523 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn shrubs/autumn shrub.fbx
-  artifactKey: Guid(6d1fb9884d0e32a49a69a41a98410770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn shrubs/autumn shrub.fbx using Guid(6d1fb9884d0e32a49a69a41a98410770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf689cfdb1d3551eba9cecfd72a7a8ee') in 0.058869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000523 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Agaric mushrooms/agaric mushroom 4.fbx
-  artifactKey: Guid(36cc65b557182c74da2eaec5649c90e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Agaric mushrooms/agaric mushroom 4.fbx using Guid(36cc65b557182c74da2eaec5649c90e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3500eac5059758ef1b645d89a00731b') in 0.051380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000574 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Water lilies/ater lily leaf 2.fbx
-  artifactKey: Guid(4fe2ad95d3b070d4784e0ea5a583be7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Water lilies/ater lily leaf 2.fbx using Guid(4fe2ad95d3b070d4784e0ea5a583be7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3502f80ade576738026c42805c329bb') in 0.057160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Autumn birch trees/autumn birch tree 4.fbx
-  artifactKey: Guid(153a0b23c008ab24bbb6a9362eb11912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Autumn birch trees/autumn birch tree 4.fbx using Guid(153a0b23c008ab24bbb6a9362eb11912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c394fb41abd9dc3620fbe8190da7ab8') in 0.064815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000602 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/Autumn fir trees/autumn fir tree large.fbx
-  artifactKey: Guid(7082f683858e35649bf0599d9b727485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/Autumn fir trees/autumn fir tree large.fbx using Guid(7082f683858e35649bf0599d9b727485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fb652b2b6b08794b242226d998af5c') in 0.062028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000491 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/autumn tree.fbx
-  artifactKey: Guid(0afdbb9449eef2e4685fcfd12b8d506f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/autumn tree.fbx using Guid(0afdbb9449eef2e4685fcfd12b8d506f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d77b8c09e8b4025d7fd781fcfbfa0b') in 0.052501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000501 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Agaric mushrooms/agaric mushroom.fbx
-  artifactKey: Guid(d06024a43f1df9b4593d59432977d8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Agaric mushrooms/agaric mushroom.fbx using Guid(d06024a43f1df9b4593d59432977d8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99376fd69127942733ad3e08cc99a67') in 0.060507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000759 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bush plant 4.fbx
-  artifactKey: Guid(1070a97c0eb0fef4c8f269a167bf2fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bush plant 4.fbx using Guid(1070a97c0eb0fef4c8f269a167bf2fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bae4d088a45fe141f3f3aa7c4fef17b') in 0.048963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bushy plant right 4.fbx
-  artifactKey: Guid(5926227678ae4ad49b5d2bedd89d8a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bushy plant right 4.fbx using Guid(5926227678ae4ad49b5d2bedd89d8a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81dfc63d8d81a1fa7d035aecf4a146e5') in 0.059315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000628 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn shrubs/autumn shrub 2.fbx
-  artifactKey: Guid(e6d21474a2fdc67419a4070c90d8e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn shrubs/autumn shrub 2.fbx using Guid(e6d21474a2fdc67419a4070c90d8e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668a38a4fd14eea6c5995a14bc92a30c') in 0.055350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000502 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bushy plant right 3.fbx
-  artifactKey: Guid(3df4e14a5b067c643ba1ac078922e0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bushy plant right 3.fbx using Guid(3df4e14a5b067c643ba1ac078922e0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94899580222f1fa50d339159c7b51ea') in 0.052716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000499 seconds.
-  path: Assets/_MK/MKToon/Examples/Models/05mr_Torus_02.FBX
-  artifactKey: Guid(f7c870eca41c4e2429ea1bb655763b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Models/05mr_Torus_02.FBX using Guid(f7c870eca41c4e2429ea1bb655763b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b404f888255a88f6e5f705290d2e2b8e') in 0.053859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000468 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Autumn trees/autumn tree 2.fbx
-  artifactKey: Guid(560c64f021372994c9f6e8d10480faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Autumn trees/autumn tree 2.fbx using Guid(560c64f021372994c9f6e8d10480faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1819d01b730f9c0fe44af979529c5d6') in 0.054642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bush plant 3.fbx
-  artifactKey: Guid(c1c5bd685b346494e804e1a84f9766e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bush plant 3.fbx using Guid(c1c5bd685b346494e804e1a84f9766e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d17277d86393f8bae1a6c8e8a4ce772') in 0.058276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bushy plant left 2.fbx
-  artifactKey: Guid(c815094776cbbda40866497624676c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bushy plant left 2.fbx using Guid(c815094776cbbda40866497624676c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fee6f151699d35292618206a9f4b6f9') in 0.050945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000663 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bushy plant left.fbx
-  artifactKey: Guid(e633c2b19433c6a47a96e824240e14b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bushy plant left.fbx using Guid(e633c2b19433c6a47a96e824240e14b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7bde279ca7e63196e3ff2c06a2469ce') in 0.069489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Autumn birch trees/autumn birch tree 3.fbx
-  artifactKey: Guid(ac7725e92d6603b44a31b91999d4bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Autumn birch trees/autumn birch tree 3.fbx using Guid(ac7725e92d6603b44a31b91999d4bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16306821d9dc63827c6fa0c8de8161ec') in 0.072336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000477 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/Autumn fir trees/autumn pine tree small.fbx
-  artifactKey: Guid(3440493563d408a458d805221c450f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/Autumn fir trees/autumn pine tree small.fbx using Guid(3440493563d408a458d805221c450f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8016c3f12a35ffe4fb332a9fc8b785') in 0.049872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000464 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bushy plant right.fbx
-  artifactKey: Guid(58c079746bfc0e14086b3db214c15f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bushy plant right.fbx using Guid(58c079746bfc0e14086b3db214c15f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df4a9cba125baf187eebc1b351725bf') in 0.053352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000598 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Autumn birch trees/autumn birch tree.fbx
-  artifactKey: Guid(34a87add508cfb14a953d5641f42dce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Autumn birch trees/autumn birch tree.fbx using Guid(34a87add508cfb14a953d5641f42dce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ffdc86c7a055e8501c5ff247d73ba3') in 0.055803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000538 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Autumn fir trees/autumn pine tree small.fbx
-  artifactKey: Guid(300ee7705c73ed1438667db77ede50a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Autumn fir trees/autumn pine tree small.fbx using Guid(300ee7705c73ed1438667db77ede50a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26aef7a477c93222174d9a346b592d8') in 0.060617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000660 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bush plant.fbx
-  artifactKey: Guid(104b0b57e43b130429cd413739c9859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Autumn bush plants/autumn bush plant.fbx using Guid(104b0b57e43b130429cd413739c9859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8eb325b873c8947af407a9249fda6f') in 0.055508 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Autumn fir trees/autumn pine tree medium.fbx
-  artifactKey: Guid(cf7eb190d6c57ac4dae24cb0da6a7b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Autumn fir trees/autumn pine tree medium.fbx using Guid(cf7eb190d6c57ac4dae24cb0da6a7b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46020496c662f94abd25f9c602785d21') in 0.062098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000647 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Agaric mushrooms/agaric mushroom 2.fbx
-  artifactKey: Guid(bea2ebc5841e30f489f8a217445f096d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Agaric mushrooms/agaric mushroom 2.fbx using Guid(bea2ebc5841e30f489f8a217445f096d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfe6d2c1c3ef5d4c860700ec4867bb8') in 0.057314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/Autumn fir trees/autumn fir tree medium.fbx
-  artifactKey: Guid(4813fbebf1f82114e98718a396219ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Fir trees/Autumn fir trees/autumn fir tree medium.fbx using Guid(4813fbebf1f82114e98718a396219ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d96002f4929c76cc88ff644de0fd2e') in 0.053905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Autumn birch trees/autumn birch tree 2.fbx
-  artifactKey: Guid(a2bad11c719a4f540957f253a1e8a2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Trees/Autumn birch trees/autumn birch tree 2.fbx using Guid(a2bad11c719a4f540957f253a1e8a2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7e69ee0541500ac61f6414912cf218') in 0.054219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000517 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Autumn bush plants/autumn bush plant 3.fbx
-  artifactKey: Guid(e83d7b7a06504bd4698f7c2e6aa07d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Autumn bush plants/autumn bush plant 3.fbx using Guid(e83d7b7a06504bd4698f7c2e6aa07d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416f5e2c991f38783ab0713e498d9408') in 0.054773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.781958 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Sports environment/mesh fence.fbx
-  artifactKey: Guid(14472bfcc11a8d4468583cd8029a8e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Sports environment/mesh fence.fbx using Guid(14472bfcc11a8d4468583cd8029a8e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbefe580a1c270cc22167e7961c81a27') in 0.075665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000767 seconds.
-  path: Assets/_MK/MKToon/Examples/Models/ShaderBall/Smoothed/Letters_LOD2.asset
-  artifactKey: Guid(51a35e98055f14348aa585e783b815b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Models/ShaderBall/Smoothed/Letters_LOD2.asset using Guid(51a35e98055f14348aa585e783b815b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32badcfd333bf40e285c3bea206df47e') in 0.053581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.100212 seconds.
-  path: Assets/_MK/MKToon/Examples/Models/ShaderBall/Smoothed/Letters_LOD0.asset
-  artifactKey: Guid(459fbb73a60100040b2b57fa6f9d10a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Models/ShaderBall/Smoothed/Letters_LOD0.asset using Guid(459fbb73a60100040b2b57fa6f9d10a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72db39538d4c9ca6053ff23d0f7f4edc') in 0.056895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000875 seconds.
-  path: Assets/_MK/MKToon/Examples/Models/ShaderBall/Smoothed/Letters_LOD1.asset
-  artifactKey: Guid(c18794e4bbf931c41ae029768d6f5e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Models/ShaderBall/Smoothed/Letters_LOD1.asset using Guid(c18794e4bbf931c41ae029768d6f5e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784cba4c5fae49cba3ee210ec835804d') in 0.049228 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.361039 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Lands/land soccer field.fbx
-  artifactKey: Guid(be9e8cebf36976447866a0bcbe35764d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Lands/land soccer field.fbx using Guid(be9e8cebf36976447866a0bcbe35764d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716e2caabf3a25fd875dd1a5414b5ccf') in 0.061058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000718 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Vehicles/train.fbx
-  artifactKey: Guid(d38abd0f11c6e744c9b6ba5ac409af1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Vehicles/train.fbx using Guid(d38abd0f11c6e744c9b6ba5ac409af1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0491930b3d5cd3e301480ec62ffe9b11') in 0.138179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000492 seconds.
-  path: Assets/_MK/MKToon/Examples/Models/Cobblestones_02.FBX
-  artifactKey: Guid(e838136a77e8a6c46a458dc7914abd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MK/MKToon/Examples/Models/Cobblestones_02.FBX using Guid(e838136a77e8a6c46a458dc7914abd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4087d7449c3f171512a2b509d370434') in 0.540434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Clouds 01.FBX
-  artifactKey: Guid(328957528a1cf5c47845cbdde391d913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Clouds 01.FBX using Guid(328957528a1cf5c47845cbdde391d913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac03461ba94b140058ef101466436e00') in 0.126258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000745 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/Environment halloween/crypt.fbx
-  artifactKey: Guid(ba491eebd2475cf4bb9c6958024c37c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/Environment halloween/crypt.fbx using Guid(ba491eebd2475cf4bb9c6958024c37c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ea85b27f2f742e64e8b28287f1fff2') in 0.058468 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000570 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Grass brown/grass brown.fbx
-  artifactKey: Guid(26ff2e73e163b6b459ce113f217839d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Grass brown/grass brown.fbx using Guid(26ff2e73e163b6b459ce113f217839d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cdcfe94ff749679336859fe476286c') in 0.054342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000500 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Lands/land village autumn.fbx
-  artifactKey: Guid(b9e7190b31e0fd84eaf695fad629c302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Lands/land village autumn.fbx using Guid(b9e7190b31e0fd84eaf695fad629c302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114f1b5e8be2290688ff9a64489f8217') in 0.052662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000506 seconds.
-  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Clouds 04.FBX
-  artifactKey: Guid(08cc8c77ea06a724882910b7e352a688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Meshes/Clouds 04.FBX using Guid(08cc8c77ea06a724882910b7e352a688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db555e9559be81bd2592ecc7e2f72a36') in 0.104692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000640 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Grass brown/grass brown 2.fbx
-  artifactKey: Guid(87d5834c0e78d024a90b3ba65864ab8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Grass brown/grass brown 2.fbx using Guid(87d5834c0e78d024a90b3ba65864ab8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e67c17a387cc8a0cc86d4dd9914e70d') in 0.070713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000506 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Winter environment/Garlands/garland 2.fbx
-  artifactKey: Guid(c0eee959b54faa74c8b9bea1d4c50285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Winter environment/Garlands/garland 2.fbx using Guid(c0eee959b54faa74c8b9bea1d4c50285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5535df9c3ac7bff09cd56ccce5377b') in 0.053762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000764 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Grass yellow/grass yellow 3.fbx
-  artifactKey: Guid(4538727006287ce42b1ec284ea2323ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Plants/Grass yellow/grass yellow 3.fbx using Guid(4538727006287ce42b1ec284ea2323ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bba9abdb36fb6845ecf53435e0be75d') in 0.046245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000581 seconds.
-  path: Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/Fences/Processed fences/gates right.fbx
-  artifactKey: Guid(400e9ab474c75c642bec5498b92d4366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Autumn Locations Pack/Models/Environment/Fences/Processed fences/gates right.fbx using Guid(400e9ab474c75c642bec5498b92d4366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36abea652ec6fecc2ada338d8fb3a338') in 0.053068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.052172 seconds.
-  path: Assets/Assets/Materials/DefaultMaterials/CobbleStone.mat
-  artifactKey: Guid(59be8d8ef2a02904e9d6a3396ce90196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/DefaultMaterials/CobbleStone.mat using Guid(59be8d8ef2a02904e9d6a3396ce90196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4448c16aab040f2768baddff1cb631e7') in 0.040112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000697 seconds.
-  path: Assets/Assets/Materials/DefaultMaterials/FlyingIsle.mat
-  artifactKey: Guid(ff39141e764f2f049b8086c0804cca85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/DefaultMaterials/FlyingIsle.mat using Guid(ff39141e764f2f049b8086c0804cca85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03498e87ad1031288e75e4b95c52c63c') in 0.035141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000536 seconds.
-  path: Assets/Assets/Materials/DefaultMaterials/Other.mat
-  artifactKey: Guid(52756015e224b014aa80048cd14b2e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/DefaultMaterials/Other.mat using Guid(52756015e224b014aa80048cd14b2e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19ad0b6b6437bcfea116813ebc616ab') in 0.031325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000582 seconds.
-  path: Assets/Assets/Materials/DefaultMaterials/WitchLab.mat
-  artifactKey: Guid(1e703a8ab280d394380596b174eeb698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/DefaultMaterials/WitchLab.mat using Guid(1e703a8ab280d394380596b174eeb698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f21a4d47ce2bf6355a041ad4fe366f') in 0.031100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 485.121034 seconds.
-  path: Assets/Assets/Materials/2/3 - 副本.mat
-  artifactKey: Guid(a3d1e555a22f09a40a2d40e07bca4ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/3 - 副本.mat using Guid(a3d1e555a22f09a40a2d40e07bca4ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2647de4480f46d7780016efcd7a8be') in 0.040966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000704 seconds.
-  path: Assets/Assets/Materials/2/3.mat
-  artifactKey: Guid(6d36c6e40261e504997b9660387e0f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/3.mat using Guid(6d36c6e40261e504997b9660387e0f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92de488495e2b63f9bc02d4dc7bd9c14') in 0.034786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/Assets/Materials/2/4c.mat
-  artifactKey: Guid(310b03dabac24f341823c641e687376a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/4c.mat using Guid(310b03dabac24f341823c641e687376a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b10791dd6e5e9924b001c11233c4e69') in 0.030148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.725867 seconds.
-  path: Assets/Assets/Materials/2/3 - 副本.mat
-  artifactKey: Guid(a3d1e555a22f09a40a2d40e07bca4ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/3 - 副本.mat using Guid(a3d1e555a22f09a40a2d40e07bca4ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6826d8e042e60cdd14d2d118e447be') in 0.036802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 91.519909 seconds.
-  path: Assets/Assets/Materials/2/3b.mat
-  artifactKey: Guid(a3d1e555a22f09a40a2d40e07bca4ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/3b.mat using Guid(a3d1e555a22f09a40a2d40e07bca4ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52589f4810b5e0161eac78a515e5de0e') in 0.037903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.487264 seconds.
-  path: Assets/Assets/Materials/2/3c.mat
-  artifactKey: Guid(7a9ca3c6f978941499da6a4347109319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/3c.mat using Guid(7a9ca3c6f978941499da6a4347109319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8531982c769ace41844ed40c41baa2b') in 0.033050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.842589 seconds.
-  path: Assets/Assets/Materials/2/3d.mat
-  artifactKey: Guid(a70a6e402094f7649b03d0ee871c4a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/3d.mat using Guid(a70a6e402094f7649b03d0ee871c4a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0defea689dbaeebce693d87b609481b2') in 0.032132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 419.719565 seconds.
-  path: Assets/Assets/Materials/2/3c.mat
-  artifactKey: Guid(7a9ca3c6f978941499da6a4347109319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/2/3c.mat using Guid(7a9ca3c6f978941499da6a4347109319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c2b495d91aa15820d4d4b000e3656f') in 0.034843 seconds 
+  Time since last request: 253.721105 seconds.
+  path: Assets/Assets/Materials/2/0b.mat
+  artifactKey: Guid(d2552235614cf2e4eb3632f3e448ae38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Materials/2/0b.mat using Guid(d2552235614cf2e4eb3632f3e448ae38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d0481a9dc5b26a954d074c327e3d97') in 0.035788 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
