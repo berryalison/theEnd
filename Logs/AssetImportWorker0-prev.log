@@ -1,0 +1,215 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.48f1c1 (06fbdfbf16e3) revision 457695'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 32515 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\u3d\2020.3.48f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Taptap2024/theEnd
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62719
+Successfully changed project path to: D:/Taptap2024/theEnd
+D:/Taptap2024/theEnd
+Using Asset Import Pipeline V2.
+Player connection [32436] Host "[IP] 10.100.0.158 [Port] 1073957920 [Flags] 2 [Guid] 1929617438 [EditorId] 1929617438 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-IJTUF6HB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [32436] Host "[IP] 10.100.0.158 [Port] 1073957920 [Flags] 2 [Guid] 1929617438 [EditorId] 1929617438 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-IJTUF6HB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 70.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.48f1c1 (06fbdfbf16e3)
+[Subsystems] Discovering subsystems at path D:/u3d/2020.3.48f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Taptap2024/theEnd/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Laptop GPU (ID=0x249c)
+    Vendor:   
+    VRAM:     16177 MB
+    Driver:   32.0.15.6081
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Initialize mono
+Mono path[0] = 'D:/u3d/2020.3.48f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/u3d/2020.3.48f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/u3d/2020.3.48f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/u3d/2020.3.48f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/u3d/2020.3.48f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000811 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 70.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.464 seconds
+Domain Reload Profiling:
+	ReloadAssembly (465ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (369ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (108ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (164ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (58ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002313 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.943 seconds
+Domain Reload Profiling:
+	ReloadAssembly (943ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (797ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (357ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.4 MB.
+System memory in use after: 136.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3247.
+Total: 3.211600 ms (FindLiveObjects: 0.289500 ms CreateObjectMapping: 0.148800 ms MarkObjects: 2.690100 ms  DeleteObjects: 0.081800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 0 -> 1
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/_MK/MKToon/Examples/Prefabs/Sheep/2.png
+  artifactKey: Guid(4bf8767be7330c947975735d907e4693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Prefabs/Sheep/2.png using Guid(4bf8767be7330c947975735d907e4693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fe70bfad2b079947e35dfb97433fd6') in 0.047969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/_MK/MKToon/Examples/Prefabs/Sheep/NewLayer 1.terrainlayer
+  artifactKey: Guid(a6ffd700742016742bb19adae39fe599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Prefabs/Sheep/NewLayer 1.terrainlayer using Guid(a6ffd700742016742bb19adae39fe599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8d4f24668b5e74d1a36082b5930bfb') in 0.031503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/_MK/MKToon/Examples/Prefabs/Sheep/1.png
+  artifactKey: Guid(4538d087890520347a8ab61afbb73c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Prefabs/Sheep/1.png using Guid(4538d087890520347a8ab61afbb73c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a16d286c3fbdbba0bd09ff9efb5f9b') in 0.012430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/_MK/MKToon/Examples/Prefabs/Sheep/NewLayer.terrainlayer
+  artifactKey: Guid(d5187ead828be0e4aa90248a5b1dbf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Prefabs/Sheep/NewLayer.terrainlayer using Guid(d5187ead828be0e4aa90248a5b1dbf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095d44e08f2180ed99baadca757953f6') in 0.011578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/_MK/MKToon/Examples/Prefabs/Sheep/CloudsLower.prefab
+  artifactKey: Guid(a9ea8fe5a4d2deb42b8fab44da1c67aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Prefabs/Sheep/CloudsLower.prefab using Guid(a9ea8fe5a4d2deb42b8fab44da1c67aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f927f8c574cc559f160bc8d222ed32a') in 0.044743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/_MK/MKToon/Examples/Prefabs/Sheep/Ground.prefab
+  artifactKey: Guid(59e0937c3607cc4429e435e7a1adbf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Prefabs/Sheep/Ground.prefab using Guid(59e0937c3607cc4429e435e7a1adbf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524548eef6ef10315911a4273eb6c142') in 0.012475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/_MK/MKToon/Examples/Prefabs/Sheep/Plant.prefab
+  artifactKey: Guid(053fb3ee53d44ec4f8b6ea7be35b16e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Prefabs/Sheep/Plant.prefab using Guid(053fb3ee53d44ec4f8b6ea7be35b16e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d64da74e338defa23d1ea6cd95fe101') in 0.013158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/_MK/MKToon/Examples/Prefabs/Sheep/Grass.prefab
+  artifactKey: Guid(64f235a9684d5bc42b23483f2b2dffe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Prefabs/Sheep/Grass.prefab using Guid(64f235a9684d5bc42b23483f2b2dffe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5536c895a1c5ed241095153cd799065') in 0.009583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/_MK/MKToon/Examples/Prefabs/Sheep/Cloud.prefab
+  artifactKey: Guid(b0c7d980480c3854db8eead53d230da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Prefabs/Sheep/Cloud.prefab using Guid(b0c7d980480c3854db8eead53d230da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8e0450a5fded391af4b88db5af297f') in 0.012873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/_MK/MKToon/Examples/Prefabs/Sheep/Bush_01.prefab
+  artifactKey: Guid(94faca847b96cd744a91629696f4268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Prefabs/Sheep/Bush_01.prefab using Guid(94faca847b96cd744a91629696f4268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa3b97fc5c9fe6109f9b04c837320ce') in 0.012216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/_MK/MKToon/Examples/Prefabs/Sheep/Flower_02.prefab
+  artifactKey: Guid(fe40035434399bc46a4b01659a7da746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Prefabs/Sheep/Flower_02.prefab using Guid(fe40035434399bc46a4b01659a7da746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89aba1a26876aaceda909bafc811a5bb') in 0.016181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/_MK/MKToon/Examples/Prefabs/Sheep/Fence.prefab
+  artifactKey: Guid(9d1aad0a342a7ec42a74917616ee8e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToon/Examples/Prefabs/Sheep/Fence.prefab using Guid(9d1aad0a342a7ec42a74917616ee8e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9322babefaeb7d938d1309417ef108') in 0.017156 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
